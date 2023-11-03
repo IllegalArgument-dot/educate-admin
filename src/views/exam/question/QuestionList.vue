@@ -194,7 +194,10 @@ export default {
     }
   },
   created() {
-    this.initSubject()
+    let _this = this
+    this.initSubject(function () {
+      _this.subjectFilter = _this.subjects
+    })
     this.search()
   },
   methods: {

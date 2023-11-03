@@ -22,11 +22,12 @@ const routes = [
     },
     {
         path: '/exam/question/edit/singleChoice',
-        component: () => import('@/views/exam/question/edit/single-choice.vue'),
-        name: 'singleChoicePage',
+        component: () => import('@/views/exam/question/edit/new-single-choice.vue'),
+        name: 'newsingleChoicePage',
         meta: {title: '单选题编辑', noCache: true, activeMenu: '/exam/question/list'},
         hidden: false
-    }
+    },
+
 ]
 
 const router = new VueRouter({

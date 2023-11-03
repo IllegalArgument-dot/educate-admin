@@ -24,6 +24,7 @@ export default {
     }
   },
   watch: {
+    // eslint-disable-next-line no-unused-vars
     value: function (val, oldVal) {
       if (val != null && this.ready) {
         // eslint-disable-next-line no-undef

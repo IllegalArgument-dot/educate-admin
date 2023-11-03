@@ -18,7 +18,9 @@
         <el-submenu index="2">
           <template slot="title">
             <i class="el-icon-user-solid"></i>
-            <span slot="title">用户管理</span>
+            <span slot="title">
+              <router-link class="router-link" to="/exam/question/edit/singleChoice">用户管理</router-link>
+            </span>
           </template>
         </el-submenu>
         <el-submenu index="3">
