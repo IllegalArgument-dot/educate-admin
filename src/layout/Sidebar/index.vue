@@ -1,5 +1,5 @@
 <template>
-  <el-aside width="210px">
+  <el-aside width="210px" class="el-aside">
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <el-menu
           default-active="1"
